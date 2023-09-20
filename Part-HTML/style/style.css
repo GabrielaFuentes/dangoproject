@@ -16,14 +16,14 @@ body {
 
 .my-card {
     border: 3px solid black;
-   height: 750px;
+    height: 750px;
     padding: 20px;
-    
-  }
+
+}
 
 .card-container .my-card:nth-last-child(-n+3) .my-card-title {
     text-align: center;
-  }
+}
 
 .my-card-img-top {
     width: 100%;
@@ -63,11 +63,11 @@ body {
 
 .button-add,
 .link-more {
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
     padding: 10px;
     font-size: 1.50rem;
-    text-align: center; 
+    text-align: center;
 }
 
 .button-add {
@@ -77,19 +77,19 @@ body {
 }
 
 .link-more {
-    text-decoration:underline;
+    text-decoration: underline;
     color: black;
 }
 
 /* Media Query para el breakpoint */
 @media (max-width: 768px) {
     .card-container {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 576px) {
     .card-container {
-        grid-template-columns: repeat(1, 1fr); 
+        grid-template-columns: repeat(1, 1fr);
     }
 }

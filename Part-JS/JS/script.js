@@ -23,7 +23,7 @@ function swapHeadlines() {
     productCards.forEach((card, index) => {
         const titleElement = card.querySelector('.my-card-title');
         if (!originalHeadlines[index]) {
-            originalHeadlines[index]=titleElement.textContent 
+            originalHeadlines[index] = titleElement.textContent
         }
         if (isHeadlinesChanged) {
             titleElement.textContent = originalHeadlines[index];
@@ -31,7 +31,7 @@ function swapHeadlines() {
             titleElement.textContent = 'New Title';
         }
     });
-    isHeadlinesChanged=!isHeadlinesChanged;
+    isHeadlinesChanged = !isHeadlinesChanged;
 }
 
 
