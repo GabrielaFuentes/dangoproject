@@ -21,10 +21,6 @@ body {
 
 }
 
-.card-container .my-card:nth-last-child(-n+3) .my-card-title {
-    text-align: center;
-}
-
 .my-card-img-top {
     width: 100%;
     margin-top: 20px;
@@ -91,5 +87,10 @@ body {
 @media (max-width: 576px) {
     .card-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
