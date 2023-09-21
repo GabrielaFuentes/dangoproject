@@ -7,13 +7,12 @@ Este proyecto es una prueba práctica diseñada para demostrar mis habilidades e
 
 El proyecto consiste en una página web que muestra una serie de tarjetas de productos. Cada tarjeta de producto contiene una imagen, un título, un precio, un campo de entrada y dos botones: "Add to Cart" y "Learn More".
 
-Nota: Adicionalmente, se agrego funcionalidad adicional a los botones "Change Color" y "Change Headlines" que permite restaurar los colores y encabezados originales al dar clic nuevamente en ellos.
-
-
 El objetivo de la prueba es evaluar tus habilidades en las siguientes áreas:
 - HTML: Estructura y marcado semántico.
 - CSS: Estilización de elementos y diseño responsive.
 - JavaScript: Interacción y manipulación del DOM.
+
+Nota: Adicionalmente, se agrego funcionalidad adicional a los botones "Change Color" y "Change Headlines" que permite restaurar los colores y encabezados originales al dar clic nuevamente en ellos.
 
 ## Instrucciones de Uso
 
